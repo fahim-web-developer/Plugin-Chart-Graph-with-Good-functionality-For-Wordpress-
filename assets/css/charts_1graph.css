@@ -1,0 +1,744 @@
+ .chart_bottom {
+      display: flex;
+      justify-content: space-between;
+      padding: 20px 0;
+    }
+    .chart_bottom img {
+        width: 250px;
+    }
+
+    .canvasjs-chart-credit{
+        display: none !important;
+    }
+    .pie_chart {
+        position: relative;
+    } 
+
+     span.over_flow {
+        width: 90px;
+        height: 26px;
+        background: #fff;
+        display: block;
+        position: relative;
+        top: -12px;
+    }
+
+    .CR_chart {
+        display: flex;
+        justify-content: space-between;
+        padding: 40px 0;
+    }
+    .pie_chart {
+        width: 50%;
+    }
+
+    .pie_chart_container {
+        height: 100%;
+    }
+    .total_sec {
+        position: absolute;
+        left: 0;
+        right: 0;
+        text-align: center;
+        width: 200px;
+        margin: auto;
+        box-shadow: 3px 3px 6px #00000057;
+        font-size: 14px;
+        font-weight: 600;
+        border-radius: 8px;
+        background: #fff;
+    }
+  .CR_chart_content {
+    margin-bottom: 20px;
+    }
+  .color_det {
+    padding-top: 30px;
+  }
+  .color_det ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+    flex-wrap: wrap;
+    font-size: 11px;    
+  }
+    .color_det ul li {
+        width: 33%;
+    }
+    .chart_content.fy-table table td {
+        padding: 3px 0;
+    }
+
+.color_det .color_det_items_four li span {
+    height: 10px;
+    width: 11px;
+    display: inline-block;
+    margin-right: 5px;
+    border-radius: 50px;
+} 
+
+.apexcharts-canvas,
+.apexcharts-canvas svg,
+foreignObject {
+    width: 100% !important;
+}
+.chart_content.cr-chart .color_det, .chart_content.cr-chart .chart_bottom {
+    width: 100%;
+    margin: auto;
+}
+.apexcharts-legend-series {
+    margin: 2px 20px !important;
+}
+
+
+
+
+
+
+
+
+
+
+
+.chart_bottom .right_bottom img {
+    width: 149.55px;
+}
+   .header_chart img {
+    width: 150px;
+  }
+  .header_chart {
+      display: flex;
+      align-items: center;
+      margin: auto;
+      width: 100%;
+      padding: 25px 0 36px 0;
+  }
+  .header_chart h2 {
+    margin: 0;
+    color: #000;
+    padding: 0;
+    padding-left: 10px;
+    font-weight: 700;
+  }
+  .chart_content {
+/*      background: #dcdcdc;*/
+    position: relative;
+  }
+  .lower_chart, .upper_chart{
+      position: relative;
+      height: 58%;
+      width: 100%;
+      display: flex;
+      justify-content: space-between;
+  }
+  .bottom_chart .chart_items {
+    display: block;
+  }
+  .chart_bottom {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    align-items: end;
+    border-top: 1px solid #ddd;
+  }
+  .chart_bottom img {
+      width: 180px;
+  }
+  .financials_chart,
+  div#ticks {
+      position: relative;
+  }
+  .ticks_chart {
+    position: absolute;
+    top: 0;
+    left: 4%;
+    right: 0;
+    width: 100%;
+    bottom: 0;
+    height: 336px;
+   }
+  .tick {
+      border-top: 1px dotted #C4C4C4;
+      position: relative;
+      left: 4%;
+      width: 96%;
+      height: 65px;
+      z-index: 999;
+  }
+  .tick p {
+      margin: 0;
+      position: relative;
+      top: -15px;
+      left: -65px;
+      text-align: right;
+      width: 50px;
+      font-weight: 600;
+      font-size: 12px;
+      display: inline-block;
+      color: #000;
+  }
+  .chart_items p {
+    color: #000;
+    font-size: 12px;
+    margin: 0;
+    position: relative;
+    top: 7px;
+  }
+  .chart_items {
+      width: 25%;
+      height: 100%;
+      display: flex;
+      justify-content: center;
+      gap: 10px;
+  }
+  .upper_chart .chart_items {
+    align-items: end;
+  } 
+
+
+  .chart_items:nth-child(odd) {
+      background: #d1dde9;
+  }
+  .chart_items:nth-child(even) {
+      background: #f5ddd3;
+  }
+  .tick:nth-child(2) {
+      border-bottom: 1px solid #000;
+  }
+  .upper_chart .chart_items div,
+  .lower_chart .chart_items div{
+      display: flex;
+      justify-content: center;
+      z-index: 99;
+      width: 34px;
+  }
+  .lower_chart .chart_items div{
+      margin-top: 1px;
+      align-items: end;
+      border-bottom-left-radius: 5px;
+      border-bottom-right-radius: 5px;
+  }
+  .upper_chart .chart_items div {
+      margin-bottom: 0;
+      border-top-left-radius: 5px;
+      border-top-right-radius: 5px;
+  }
+  .upper_chart .chart_items div span {
+    margin-top: -25px;
+  }
+  .lower_chart .chart_items div span,
+  .upper_chart .chart_items div span {
+      text-align: center;
+      width: 100%;
+      font-size: 12px;
+      font-weight: 600;
+      color: #000;
+  }
+  .lower_chart .chart_items div span{
+      margin-bottom: -25px;
+  }
+  .bottom_chart {
+      display: flex;
+      text-align: center;
+      font-size: 20px;
+      font-weight: 500;
+  }
+
+  .bottom_chart .chart_items:before {
+      content: " ";
+      width: 100%;
+      height: 10px;
+      display: block;
+  }
+  .chart_content2 .tick:nth-child(6),
+  .chart_content2 .tick:first-child,
+  .chart_content2 .tick:last-child {
+    border: none;
+    }
+  .bottom_chart .chart_items.chart_one:after,
+  .bottom_chart .chart_items.chart_three:after {
+      background: #9cc6df;
+  }
+  .bottom_chart .chart_items.chart_two:after,
+  .bottom_chart .chart_items.chart_four:after {
+      background: #e6bca2;
+  }
+  .chart_details {
+      position: absolute;
+      top: -6%;
+      right: 5%;
+      display: flex;
+      z-index: 9;
+      font-size: 20px;
+      background: #fff;
+      border-radius: 8px;
+  }
+  .chart_details .items {
+      padding: 3px 8px;
+      font-size: 12px;
+      line-height: initial;
+  }
+
+  .chart_details .items span {
+       display: inline-block;
+      content: " ";
+      position: relative;
+      top: 1px;
+      left: -4px;
+      width: 14px;
+      height: 10px;
+   }
+
+  .financials_chart{
+    width: 88%;
+    margin: auto;
+  }
+  .financials_chart_content .chart_bottom {
+    position: relative;
+    top: -24px;
+    padding: 0;
+  }
+  img.water_mark {
+    position: absolute;
+    z-index: 99;
+    transform: rotate(353deg);
+    width: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+.left_det {
+    position: absolute;
+    left: -43px;
+    bottom: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    transform: rotateZ(270deg);
+    font-size: 12px;
+}
+.bottom_chart .chart_items p {
+    font-size: 11px;
+}
+
+
+/*--------------------------------------------*/
+.chart_content.fy-table table td {
+    border: 1px solid #dee2e6;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+}
+.chart_content.fy-table table td:nth-child(1) {
+    color: #000;
+    text-align: left;
+    border: 1px solid #686868;
+    padding-left: 20px;
+}
+.chart_content.fy-table img.water_mark {
+    transform: unset;
+    top: 39px;
+    z-index: -1;
+}
+.fy-table tr.head_table td:nth-child(1) {
+  width: 56%;
+}
+.chart_content.fy-table table tr.head_table{
+    border: 0 !important;
+}
+.chart_content.fy-table table tr.head_table td{
+  color: #000;
+  background: #fff;
+}
+.chart_content.fy-table tr.head_table td:nth-child(1) {
+  border: 0;
+  background: none;
+}
+.chart_content.fy-table .header_chart {
+  margin-bottom: -70px;
+}
+
+
+
+.chart_content2 .chart_items:nth-child(odd) {
+    background: #FCFCFC;
+}
+.chart_content2 .chart_items:nth-child(even) {
+    background: #F3F3F3;
+}
+.financials-content.chart_content2 {
+    position: relative;
+}
+.chart_content2 .tick {
+    border-bottom: 1px solid #CCCCCC;
+    z-index: 1;
+}
+.chart_content2 .upper_chart .chart_items div{
+  position: relative;
+}
+
+.chart_content2 .lower_chart .chart_items div span,
+.chart_content2 .upper_chart .chart_items div span {
+    text-align: center;
+    width: 95px;
+    padding: 0;
+    font-size: 12px;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    background: #222222;
+    display: none;
+    position: absolute;
+    transition: .5s;
+    top: 20px;
+    z-index: 99;
+}
+
+.chart_content2 .chart_items div:hover span {  
+    display: block;
+    transition: .5s;
+    top: -10px;
+    z-index: 99;
+}
+.chart_content2 .lower_chart .chart_items div:hover span {
+    top: -35px;
+}
+.chart_content2 .chart_items div span:before {
+    content: " ";
+    background: #222222;
+    width: 15px;
+    height: 15px;
+    position: absolute;
+    bottom: -6px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    transform: rotate(45deg);
+    z-index: -1;
+}
+.chart_content2 .chart_details {
+    background: #F0F0F0;
+    color: #333333;
+    padding: 2px 4px;
+    right: -4%;
+    top: -10%;
+}
+.chart_content2 .ticks_chart .hidden {
+    background: #fff0ed;
+}
+
+.chart_content2 .lower_chart .chart_items div.hidden {
+  top: -67%;
+  position: relative;
+}
+.chart_content2 .upper_chart .chart_items div.hidden {
+    bottom: -67%;
+}
+.chart_content2 .chart_items .hidden:hover span {
+    
+    width: 290px;
+    padding: 10px;
+    text-align: left;
+    line-height: 20px;
+}
+.chart_content2 .bottom_chart .chart_items {
+    background: none;
+}
+.chart_content2 a.view_full {
+    background: red;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 3px 10px;
+    display: inline-block;
+    margin-top: 8px;
+    text-align: left;
+    text-decoration: none;
+}
+.chart_content2 .lower_chart .chart_items .hidden:hover span {
+    top: 40px;
+}
+.chart_content2 .chart_items div:hover {
+    opacity: .9;
+}
+.chart_content2 .chart_items div.hidden:hover {
+    background: #f7c6bc;
+    z-index: 999;
+}
+.chart_content2 .ticks_chart b {
+    display: flex;
+    align-items: center;
+    transform: rotateZ(270deg);
+    font-size: 14px;
+    color: #9d9d9d;
+    font-weight: 600;
+    position: absolute;
+    top: 45%;
+}
+.chart_content2 .ticks_chart .lower_chart b {
+    position: absolute;
+}
+.chart_items div:nth-child(2):hover +  div:nth-child(3) {
+    z-index: 9 !important;
+}
+
+.chart_content2 .bottom_chart .chart_items:nth-child(odd):before {
+    background: #F1F1F1;
+}
+.chart_content2 .bottom_chart .chart_items:nth-child(even):before {
+    background: #F9F9F9;
+}
+.chart_content2 .chart_items p {
+    color: #000;
+    font-size: 12px;
+    margin: 0;
+    position: relative;
+    top: 2px;
+    padding: 10px 0;
+}
+.percent_chart {
+    position: absolute;
+    top: -50px;
+    font-size: 12.72px;
+    font-weight: 600;
+}
+/*--------------------------------------------*/
+
+.chart_content.fy-table table tr:nth-child(2) td:nth-child(2),
+.chart_content.fy-table table tr:nth-child(2) td:nth-child(3) {
+    background: #303030 !important;
+}
+
+
+.hidden_data {
+    position: absolute;
+    transition: .5s;
+    top: 0;
+    z-index: 99;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+.header_chart_content {
+    width: 325px;
+    padding: 10px;
+    text-align: left;
+    font-size: 13px;
+    font-weight: 600;
+    color: #fff;
+    background: #222222;
+}
+
+.chart_content.cr-chart:hover .hidden_data {
+    display: flex;
+}
+.hidden_data a.view_full {
+    background: red;
+    color: #fff !important;
+    border-radius: 5px;
+    padding: 3px 10px;
+    display: inline-block;
+    margin-top: 8px;
+    text-align: left;
+    text-decoration: none;
+}
+
+.chart_content.cr-chart img.water_mark {
+    z-index: -1;
+}
+.color_det .color_det_items_four li {
+    margin-bottom: 0;
+    line-height: 20px;
+}
+
+ @media (min-width: 768px){
+ 	.mobile_bar {
+    	display: none !important;
+	}
+ }
+ @media (max-width: 767px){
+ .des_bar {
+    display: none !important;
+}
+            .CR_chart_content {
+            z-index: -1;
+        }
+        .financials-content.chart_content2 {
+            width: 100%;
+        }
+        .header_chart, .financials_chart {
+            width: 100%;
+        }
+        .CR_chart {
+            flex-wrap: wrap;
+        }
+        .CR_chart .pie_chart {
+            width: 100%;
+            padding-bottom: 50px;
+        }
+        .canvasjs-chart-container {
+            display: flex;
+            justify-content: center;
+        }
+        .view_full_data {
+            flex-wrap: wrap;
+            padding: 10px;
+        }
+        .view_full_data p {
+            width: 100%;
+        }
+        .view_full_data p br {
+            display: none;
+        }
+        .view_full_data p {
+            width: 100%;
+            text-align: center;
+            padding-bottom: 10px;
+        }
+        .view_full_data a{
+            font-size: 12px;
+        }
+       .apexcharts-canvas {
+            margin: auto;
+        }
+        .chart_content2 .chart_items div#percent_chart_2:before, .chart_content2 .chart_items div#percent_chart_3:before{
+            max-width: 35px;
+        }
+        .financials_chart,
+        .ticks_chart {
+            width: 750px;
+        }
+        .chart_bottom img {
+            width: 135px;
+        }
+        .chart_bottom .right_bottom img {
+            width: 110px;
+        }
+        span.over_flow {
+            left: -23px;
+        }
+        .header_chart img {
+            width: 110px;
+        }
+        .header_chart h2 {
+            font-size: 15px;
+        }
+        .show_1 .pie_chart_container > div {
+            overflow: auto;
+            padding-left: 32px;
+        }
+        .chart_content.cr-chart .color_det {
+            padding-top: 0;
+            width: 100%;
+        }
+        .chart_content.fy-table table td {
+            font-size: 12px;
+        }
+        .chart_content.fy-table table td:nth-child(1) {
+            padding-left: 10px;
+        }
+        .chart_content.fy-table .header_chart {
+            margin-bottom: -23px;
+        }
+        .apexcharts-canvas, .apexcharts-canvas svg, foreignObject {
+            height: 300px;
+        }
+
+        .upper_chart .chart_items div, .lower_chart .chart_items div {
+            width: 15px;
+        }
+        .tick {
+            height: 33.7px;
+        }
+        .lower_chart, .upper_chart{
+            height: 30%;
+        }
+        .financials_chart, .ticks_chart {
+            width: 100%;
+            left: 2%;
+        }
+        .tick p{
+            font-size: 8px;
+        }
+        .chart_content2 .chart_items p {
+            font-size: 8px;
+            line-height: 10px;
+        }
+        .upper_chart .chart_items div, .lower_chart .chart_items div {
+            font-size: 8px;
+        }
+        .chart_content2 .ticks_chart b{
+            font-size: 8px;
+        }
+        .chart_content2 .lower_chart .chart_items div:hover span {
+            font-size: 10px;
+            width: 55px;
+        }
+        .left_det {
+            transform: unset;
+            position: absolute;
+            top: unset;
+            right: 0;
+            margin: auto;
+            left: 0;
+            font-size: 10px;
+            align-items: center;
+            justify-content: center;
+        }
+        .chart_details .items {
+            padding: 2px 4px;
+            font-size: 8px;
+        }.chart_content2 .chart_items .hidden:hover span {
+    font-size: 8px;
+    width: 114px;
+    overflow: hidden;
+    left: 0;
+}
+.chart_content2 .lower_chart .chart_items div:hover span {
+    font-size: 8px;
+    width: 114px;
+    overflow: hidden;
+    right: 0;
+    left: unset;
+}
+.percent_chart {
+    top: -20px;
+}
+.chart_content2 .upper_chart .chart_items div#percent_chart_1:before {
+    width: 24px;
+    height: 18px;
+    left: -16px;
+    top: 13px;
+    background-size: 15px;
+}
+
+.chart_content2 .upper_chart .chart_items div#percent_chart_1:before {
+    width: 24px;
+    height: 27px;
+    left: -25px;
+    top: 13px;
+}
+.chart_content2 .upper_chart .chart_items div#percent_chart_0:before {
+    width: 22px;
+    height: 22px;
+    left: -20px;
+    top: 3px;
+    background-size: 15px;
+}
+.color_det ul li {
+    width: 100%;
+}
+.apexcharts-legend.position-bottom.apexcharts-align-center, .apexcharts-legend.position-top.apexcharts-align-center {
+    justify-content: space-between !important;
+    margin-bottom: 20px;
+}
+    }
